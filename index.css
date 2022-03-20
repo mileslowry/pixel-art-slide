@@ -1,0 +1,68 @@
+html, body, pre, code, kbd, samp {
+    font-family: "Press Start 2P", monospace;
+    font-size: small;
+    color: #fff;
+    background-color: black;
+}
+
+.is-dark {
+    background-color: black !important;
+}
+
+img {
+    height: auto;
+    width: auto;
+    /* max-width: 320px;
+    max-height: 288px; */
+    max-width: 480px;
+    max-height: 432px;
+    padding: 1rem;
+}
+
+#story-text {
+    height: auto;
+    width: 100%;
+    /* max-width: 480px; */
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2.5rem;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#panel {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: auto;
+}
+
+#img-panel {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+}
+
+#btn-panel {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: right;
+    justify-items: right;
+    grid-template-columns: 1fr;
+}
+
+#text-panel {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#btn-panel {
+    padding: 1rem;
+}
