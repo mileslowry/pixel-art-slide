@@ -1,5 +1,4 @@
-# Pixel Art Web Comic
-# Art by Bryce Lowry
+# Pixel Art Web Comic - Art by Bryce Lowry
 
 ## Getting Started
 
